@@ -1,9 +1,28 @@
 <html>
     <head>
-        <title>Flask-SocketIO-Chat</title>
+        <title>Learning System</title>
     </head>
+    <div class="p-3 bg-success text-white text-center">
+        <h1>Cloud Computing CSE-6331</h1>
+      </div>
+      <hr>
+    <div class="container-sm card-group mt-3">
+        <div class="card text-center" style="width: 18rem;">
+            <div class=" card-header bg-success text-white"><h2>Name</h2></div>
+            <div class="card-body">
+              <h5 class="card-title"><b>Darshan Shanthveer Patil</b></h5>
+            </div>
+          </div>
+        <div class="card text-center" style="width: 18rem;">
+            <div class=" card-header bg-success text-white"><h2>UTA ID</h2></div>
+            <div class="card-body">
+              <h5 class="card-title"><b>1001719406</b></h5>
+            </div>
+          </div>
+        </div>
+    </div>
     <body>
-        <h1>Flask-SocketIO-Chat</h1>
+        <h1>Learning System</h1>
         <form method="POST">
             {{ form.hidden_tag() }}
             {{ form.name.label }}: {{ form.name() }} {% for error in form.name.errors %}{{ error }}{% endfor %}<br>
